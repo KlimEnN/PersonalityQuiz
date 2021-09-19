@@ -11,7 +11,7 @@ struct Question {
     let title: String
     let type: ResponseType
     let answers: [Answer]
-   
+    
     
     static func getQuestion() -> [Question] {
         [
@@ -24,7 +24,6 @@ struct Question {
                     Answer(title: "Хлеб", animal: .rabbit),
                     Answer(title: "Морковку", animal: .turtle)
                 ]
-               
             ),
             Question(
                 title: "Что вы пьете?",
@@ -45,9 +44,7 @@ struct Question {
                     Answer(title: "0.5", animal: .rabbit),
                     Answer(title: "1", animal: .turtle)
                 ]
-                
             ),
-            
         ]
     }
 }
